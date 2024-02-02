@@ -1,0 +1,8 @@
+// this function will be called when a button is clicked
+const changeLang = (languageCode) => {
+    document.documentElement.setAttribute("lang", languageCode);
+    const contents = document.querySelectorAll("." + languageCode);
+    for (const content of contents) {
+        content.style.display = 'bloc';
+    }
+};
