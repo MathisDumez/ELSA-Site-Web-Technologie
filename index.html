@@ -1,44 +1,136 @@
 <html lang="fr">
-    <head>
-        <title>My title</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>Accueil</title>
+    <script src=".\script\script.js"></script>
+    <link rel="stylesheet" href=".\css\style.css">
+</head>
 
-    <body>
-        <header>
-            <nav class="fr">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="page1.html">Page 1</a></li>
-                    <li><a href="page2.html">Page 2</a></li>
-                </ul>
-            </nav>
-            <nav class="en">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="page1.html">Page 1</a></li>
-                    <li><a href="page2.html">Page 2</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="fr content">
-            <h1>Accueil</h1>
-            <h2>Titre du sujet</h2>
-            test text
+<body>
+    <header>
+        <div>
+            <span>ESLA</span>
         </div>
-
-        <div class="en content">
-            <h1>Home</h1>
-            <h2>SUBJECT TITLE</h2>
-            Hello World !
-        </div>
-
         <div class="translate_btns">
             <button onclick="changeLang('en')">English</button>
             <button onclick="changeLang('fr')">French</button>
         </div>
-    </body>
+    </header>
 
+    <nav class="fr">
+        <ul>
+            <li><a href="index.html" target="_self">Accueil</a></li>
+            <li><a href="page1.html" target="_self">Page 1</a></li>
+            <li><a href="page2.html" target="_self">Page 2</a></li>
+        </ul>
+    </nav>
+
+    <nav class="en">
+        <ul>
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="page1.html" target="_self">Page 1</a></li>
+            <li><a href="page2.html" target="_self">Page 2</a></li>
+        </ul>
+    </nav>
+
+    <div class="fr content">
+        <h1>FR - Lorem ipsum dolor sit amet</h1>
+
+        <h2>Consectetur adipiscing elit</h2>
+        <img src="./img/chat.jpg" alt="Chat" />
+        <p>Nullam sed ex tristique, elementum ex ac, vehicula nisl. Donec facilisis sagittis aliquam. Praesent imperdiet
+            lacus in lacus pretium lobortis. Curabitur et odio sem. Nunc accumsan augue nisi, accumsan tempus massa
+            placerat id. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">Vestibulum ultricies
+                convallis sem non pharetra.</a> Curabitur mollis pretium arcu sit amet hendrerit. Morbi mattis rutrum
+            velit, ut volutpat nulla ullamcorper eget. Curabitur in diam diam. In luctus scelerisque turpis sed
+            dignissim.
+        </p>
+
+        <h2>Maecenas bibendum nunc condimentum nulla blandit dictum</h2>
+        <h3>Proin non magna condimentum</h3>
+        <img src="./img/chat_gris.jpg" alt="Chat Gris" />
+        <p>Consequat nunc eget, tristique nulla. Maecenas ullamcorper sapien at vehicula porttitor. Sed feugiat dolor a
+            nibh
+            euismod, non sagittis metus bibendum. Aenean consequat congue orci, dictum consequat lorem interdum at.
+            Praesent
+            condimentum at felis ac viverra. Nunc ornare elementum libero ut eleifend. Pellentesque habitant <a
+                href="https://www.youtube.com/watch?v=vAvcxeXtBz0" target="_self">morbi tristique</a> senectus et netus
+            et
+            malesuada fames ac turpis egestas. Pellentesque vestibulum turpis in augue mattis vestibulum. Vivamus in
+            convallis
+            diam. Fusce id urna quis eros facilisis commodo id quis mi. Class aptent taciti sociosqu ad litora torquent
+            per
+            conubia nostra, per inceptos himenaeos.
+        </p>
+
+        <h3>Quisque eleifend erat nunc</h3>
+        <p>Malesuada cursus leo feugiat sed. Quisque ornare ex sed purus dignissim, sit amet finibus dolor tincidunt.
+            Curabitur
+            non orci vulputate nulla commodo eleifend. Nam sed cursus erat. Phasellus mattis vel ex ac interdum. Ut quis
+            velit
+            vestibulum, fermentum diam sit amet, ullamcorper lectus.<br>
+            -"Donec ac convallis nibh. Aenean ullamcorper turpis nibh, iaculis lacinia sapien laoreet id."<br>
+            -"Nulla laoreet quis eros suscipit viverra. Donec luctus dui libero."<br>
+            Etiam ac lectus tellus. Fusce vel consectetur elit. Nunc pellentesque leo sit amet turpis facilisis
+            ultricies. Cras
+            laoreet, leo eget semper euismod, erat nisl ornare augue, eu gravida nunc nulla a nulla. Praesent ut est at
+            dolor
+            tincidunt lobortis vel ac enim. Proin sit amet tempus libero, quis gravida felis.
+        </p>
+    </div>
+
+    <div class="en content">
+        <h1>EN - Lorem ipsum dolor sit amet</h1>
+
+        <h2>Consectetur adipiscing elit</h2>
+        <img src="./img/chat.jpg" alt="Chat" />
+        <p>Nullam sed ex tristique, elementum ex ac, vehicula nisl. Donec facilisis sagittis aliquam. Praesent imperdiet
+            lacus in lacus pretium lobortis. Curabitur et odio sem. Nunc accumsan augue nisi, accumsan tempus massa
+            placerat id. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">Vestibulum ultricies
+                convallis sem non pharetra.</a> Curabitur mollis pretium arcu sit amet hendrerit. Morbi mattis rutrum
+            velit, ut volutpat nulla ullamcorper eget. Curabitur in diam diam. In luctus scelerisque turpis sed
+            dignissim.
+        </p>
+
+        <h2>Maecenas bibendum nunc condimentum nulla blandit dictum</h2>
+        <h3>Proin non magna condimentum</h3>
+        <img src="./img/chat_gris.jpg" alt="Chat Gris" />
+        <p>Consequat nunc eget, tristique nulla. Maecenas ullamcorper sapien at vehicula porttitor. Sed feugiat dolor a
+            nibh
+            euismod, non sagittis metus bibendum. Aenean consequat congue orci, dictum consequat lorem interdum at.
+            Praesent
+            condimentum at felis ac viverra. Nunc ornare elementum libero ut eleifend. Pellentesque habitant <a
+                href="https://www.youtube.com/watch?v=vAvcxeXtBz0" target="_self">morbi tristique</a> senectus et netus
+            et
+            malesuada fames ac turpis egestas. Pellentesque vestibulum turpis in augue mattis vestibulum. Vivamus in
+            convallis
+            diam. Fusce id urna quis eros facilisis commodo id quis mi. Class aptent taciti sociosqu ad litora torquent
+            per
+            conubia nostra, per inceptos himenaeos.
+        </p>
+
+        <h3>Quisque eleifend erat nunc</h3>
+        <p>Malesuada cursus leo feugiat sed. Quisque ornare ex sed purus dignissim, sit amet finibus dolor tincidunt.
+            Curabitur
+            non orci vulputate nulla commodo eleifend. Nam sed cursus erat. Phasellus mattis vel ex ac interdum. Ut quis
+            velit
+            vestibulum, fermentum diam sit amet, ullamcorper lectus.<br>
+            -"Donec ac convallis nibh. Aenean ullamcorper turpis nibh, iaculis lacinia sapien laoreet id."<br>
+            -"Nulla laoreet quis eros suscipit viverra. Donec luctus dui libero."<br>
+            Etiam ac lectus tellus. Fusce vel consectetur elit. Nunc pellentesque leo sit amet turpis facilisis
+            ultricies. Cras
+            laoreet, leo eget semper euismod, erat nisl ornare augue, eu gravida nunc nulla a nulla. Praesent ut est at
+            dolor
+            tincidunt lobortis vel ac enim. Proin sit amet tempus libero, quis gravida felis.
+        </p>
+    </div>
+
+    <footer>
+        <div class="fr">
+            <span><a href="https://www.youtube.com/watch?v=GnRQtA28BfY" target="_self">Mentions légales</a></span>
+        </div>
+        <div class="en">
+            <span><a href="https://www.youtube.com/watch?v=GnRQtA28BfY" target="_self">Legal Notice</a></span>
+        </div>
+    </footer>
+</body>
 </html>
