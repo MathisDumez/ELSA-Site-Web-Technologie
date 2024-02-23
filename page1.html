@@ -4,12 +4,12 @@
     <script src=".\script\script.js"></script>
     <link rel="stylesheet" href=".\css\style.css">
 </head>
-<body class="playstation">
+<body>
     <header>
         <div>
             <span>ESLA</span>
         </div>
-        <div class="translate_btns">
+        <div class="translate_btns ps_button">
             <button onclick="changeLang('en')">English</button>
             <button onclick="changeLang('fr')">Français</button>
         </div>
@@ -17,36 +17,48 @@
 
     <nav class="fr">
         <ul>
-            <li><a href="index.html" target="_self">Accueil</a></li>
-            <li><a href="page1.html" target="_self">Playstation</a></li>
-            <li><a href="page2.html" target="_self">Xbox</a></li>
+            <li><a href="index.html" target="_self" class="ps_menu">Accueil</a></li>
+            <li><a href="page1.html" target="_self" class="ps_menu">Playstation 5</a></li>
+            <li><a href="page2.html" target="_self" class="xbox_menu">Xbox Series</a></li>
         </ul>
     </nav>
 
     <nav class="en">
         <ul>
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="page1.html" target="_self">Playstation</a></li>
-            <li><a href="page2.html" target="_self">Xbox</a></li>
+            <li><a href="index.html" target="_self" class="ps_menu">Home</a></li>
+            <li><a href="page1.html" target="_self" class="ps_menu">Playstation 5</a></li>
+            <li><a href="page2.html" target="_self" class="xbox_menu">Xbox Series</a></li>
         </ul>
     </nav>
 
-    <div class="fr content">
-        <h1>FR - Playstation</h1>
+    <div class="fr content playstation">
+        <h1>FR - Playstation 5</h1>
 
-        <h2>Consectetur adipiscing elit</h2>
-        <img src="./img/chat.jpg" alt="Chat" />
-        <p>Nullam sed ex tristique, elementum ex ac, vehicula nisl. Donec facilisis sagittis aliquam. Praesent imperdiet
-            lacus in lacus pretium lobortis. Curabitur et odio sem. Nunc accumsan augue nisi, accumsan tempus massa
-            placerat id. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">Vestibulum ultricies
-                convallis sem non pharetra.</a> Curabitur mollis pretium arcu sit amet hendrerit. Morbi mattis rutrum
-            velit, ut volutpat nulla ullamcorper eget. Curabitur in diam diam. In luctus scelerisque turpis sed
-            dignissim.
+        <img src="./img/PlayStation_5_logo_and_wordmark.svg" alt="Chat"/>
+
+        <p>La <b>PlayStation 5</b> (abrégée officiellement <b>PS5</b>) est la <a
+                href="https://fr.wikipedia.org/wiki/Console_de_jeux_vid%C3%A9o" title="Console de jeux vidéo">console de jeux
+                vidéo</a> de salon de <b>neuvième génération</b> développée par <a
+                href="https://fr.wikipedia.org/wiki/Sony_Interactive_Entertainment" title="Sony Interactive Entertainment">Sony
+                Interactive
+                Entertainment</a>. Elle est commercialisée le <time class="nowrap" datetime="2020-11-12"
+                data-sort-value="2020-11-12">12 novembre 2020</time> aux <b>États-Unis</b>, au <b>Canada</b>, en
+            <b>Australie</b> et au <b>Japon</b>, puis
+            le <time class="nowrap" datetime="11-19" data-sort-value="11-19">19 novembre</time> en <b>Europe</b> et dans le
+            reste du monde. Elle succède à la <a href="https://fr.wikipedia.org/wiki/PlayStation_4"
+                title="PlayStation 4">PlayStation 4</a> et se place en concurrence avec les <a
+                href="https://fr.wikipedia.org/wiki/Xbox_Series" title="Xbox Series">Xbox Series</a> de <a
+                href="https://fr.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a> et la <a
+                href="https://fr.wikipedia.org/wiki/Nintendo_Switch" title="Nintendo Switch">Nintendo Switch</a> de <a
+                href="https://fr.wikipedia.org/wiki/Nintendo" title="Nintendo">Nintendo</a>.
         </p>
 
         <h2>Maecenas bibendum nunc condimentum nulla blandit dictum</h2>
+
         <h3>Proin non magna condimentum</h3>
-        <img src="./img/chat_gris.jpg" alt="Chat Gris" />
+
+        <img src="./img/chat_gris.jpg" alt="Chat Gris"/>
+
         <p>Consequat nunc eget, tristique nulla. Maecenas ullamcorper sapien at vehicula porttitor. Sed feugiat dolor a
             nibh
             euismod, non sagittis metus bibendum. Aenean consequat congue orci, dictum consequat lorem interdum at.
@@ -62,6 +74,7 @@
         </p>
 
         <h3>Quisque eleifend erat nunc</h3>
+
         <p>Malesuada cursus leo feugiat sed. Quisque ornare ex sed purus dignissim, sit amet finibus dolor tincidunt.
             Curabitur
             non orci vulputate nulla commodo eleifend. Nam sed cursus erat. Phasellus mattis vel ex ac interdum. Ut quis
@@ -75,26 +88,10 @@
             dolor
             tincidunt lobortis vel ac enim. Proin sit amet tempus libero, quis gravida felis.
         </p>
-        <p>La <b>PlayStation 5</b> (abrégée officiellement <b>PS5</b>) est la <a href="https://fr.wikipedia.org/wiki/Console_de_jeux_vid%C3%A9o"
-                title="Console de jeux vidéo">console de jeux vidéo</a> de salon de <a
-                href="https://fr.wikipedia.orghttps://fr.wikipedia.org/wiki/Consoles_de_jeux_vid%C3%A9o_de_neuvi%C3%A8me_g%C3%A9n%C3%A9ration"
-                title="Consoles de jeux vidéo de neuvième génération">neuvième génération</a> développée par <a
-                href="https://fr.wikipedia.org/wiki/Sony_Interactive_Entertainment" title="Sony Interactive Entertainment">Sony Interactive
-                Entertainment</a>. Elle est commercialisée le <time class="nowrap" datetime="2020-11-12"
-                data-sort-value="2020-11-12">12 novembre 2020</time> aux <a href="/wiki/%C3%89tats-Unis"
-                title="États-Unis">États-Unis</a>, au <a href="/wiki/Canada" title="Canada">Canada</a>, en <a
-                href="/wiki/Australie" title="Australie">Australie</a> et au <a href="/wiki/Japon" title="Japon">Japon</a>, puis
-            le <time class="nowrap" datetime="11-19" data-sort-value="11-19">19 novembre</time> en <a href="/wiki/Europe"
-                title="Europe">Europe</a> et dans le reste du monde. Elle succède à la <a href="/wiki/PlayStation_4"
-                title="PlayStation 4">PlayStation 4</a> et se place en concurrence avec les <a href="/wiki/Xbox_Series"
-                title="Xbox Series">Xbox Series</a> de <a href="https://fr.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a> et la <a
-                href="https://fr.wikipedia.org/wiki/Nintendo_Switch" title="Nintendo Switch">Nintendo Switch</a> de <a href="https://fr.wikipedia.org/wiki/Nintendo"
-                title="Nintendo">Nintendo</a>.
-        </p>
     </div>
 
-    <div class="en content">
-        <h1>EN - Playstation</h1>
+    <div class="en content playstation">
+        <h1>EN - Playstation 5</h1>
 
         <h2>Consectetur adipiscing elit</h2>
         <img src="./img/chat.jpg" alt="Chat" />
