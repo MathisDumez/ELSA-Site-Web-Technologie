@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     line-height: 150%;
     margin: 0%;
+    text-align: justify;
 }
 
 h1,
@@ -89,10 +90,13 @@ ul li a {
     text-transform: uppercase;
 }
 
+.img_small {
+    width: 50%;
+}
+
 img {
-    float: right;
-    padding: 5px;
-    width: 150px;
+    float: none;
+    margin: 10px;
 }
 
 header {
@@ -127,9 +131,11 @@ header div div {
 }
 
 footer {
+    margin-top: 50px;
     background-color: #333333;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #888888;
 }
 
 footer a {
@@ -190,6 +196,26 @@ button {
 
 button:hover {
     background-color: #ff8c12;
+}
+
+.tab_config {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab_config td, .tab_config th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tab_config tr:nth-child(even){background-color: #f2f2f2;}
+
+.tab_config th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #006FCD;
+  color: white;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {

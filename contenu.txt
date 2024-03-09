@@ -1,6 +1,6 @@
 \\\\\ PLAYSTATION 5 :
 
-- évolution de la new gen
+- évolution de la new gen [X]
 
 la prise en charge du ray tracing (exploitant une variante personnalisée de la famille Navi d’AMD
 Radeon), la compatibilité avec les télévisions à 120 Hz jusqu'en définition 4K via 
@@ -9,7 +9,7 @@ la microarchitecture Zen 2), une puce audio plus performante pour une gestion du
 en trois dimensions et d'un SSD « très rapide » à la place d'un disque dur pour diminuer 
 considérablement les temps de chargement. La rétro-compatibilité avec les jeux PS4.
 
-- Dualsense
+- Dualsense [X]
 
 la DualSense21 est équipée de vibrations haptiques, de gâchettes 
 adaptatives et d'un microphone intégré
@@ -17,16 +17,16 @@ On y apprend que certains jeux bénéficieront d'une fonctionnalité de boost su
 , qui se traduira par un nombre d'images par seconde plus élevé et/ou plus stable 
 et/ou une meilleure définition, et que les sauvegardes des jeux PS4 seront transférables.
 
-- Fiche Tech
+- Fiche Tech [X]
 
--Comparaison ps5<->xbox series
+-Comparaison ps5<->xbox series [X]
 
 
 \\\\\ XBOX SERIES :
 
--évolution de la new gen
+-évolution de la new gen []
 
-- Comparaison xbox series<->ps5
+- Comparaison xbox series<->ps5 []
 
 Microprocesseur	8 Cœurs cadencés à 3,8 GHz (3,6 GHz avec technologie SMT), architecture Zen 2
 Processeur graphique	52 CUs à 1,825 GHz, microarchitecture RDNA (en) 2 personnalisée
