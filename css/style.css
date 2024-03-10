@@ -14,7 +14,6 @@ h3 {
 }
 
 h1 {
-    padding-top: 125px;
     font-size: 200%;
     font-weight: bold;
     text-transform: uppercase;
@@ -22,6 +21,7 @@ h1 {
 }
 
 h2 {
+    padding-top: 20px;
     font-size: 150%;
     font-weight: bold, normal;
     text-transform: uppercase;
@@ -93,6 +93,19 @@ ul li a {
 
 .img_small {
     width: 50%;
+}
+
+.img_ps5 {
+    margin-left: -50px;
+}
+
+.img_title {
+    padding-top: 100px;
+}
+
+.img_xbox {
+    width: 50%;
+    margin-left: 140px;
 }
 
 img {
