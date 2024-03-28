@@ -1,44 +1,111 @@
 <html lang="fr">
-    <head>
-        <title>My title</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>Accueil</title>
+    <script src=".\script\script.js"></script>
+    <link rel="stylesheet" href=".\css\style.css">
+</head>
 
-    <body>
-        <header>
-            <nav class="fr">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="page1.html">Page 1</a></li>
-                    <li><a href="page2.html">Page 2</a></li>
-                </ul>
-            </nav>
-            <nav class="en">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="page1.html">Page 1</a></li>
-                    <li><a href="page2.html">Page 2</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="fr content">
-            <h1>Accueil</h1>
-            <h2>Titre du sujet</h2>
-            Bonjour le monde !
+<body>
+    <header>
+        <div>
+            <span>BTS CIEL1A - DUMEZ Mathis & MARESCAUX Edouard</span>
         </div>
-
-        <div class="en content">
-            <h1>Home</h1>
-            <h2>SUBJECT TITLE</h2>
-            Hello World !
-        </div>
-
-        <div class="translate_btns">
+        <div class="translate_btns home_button">
             <button onclick="changeLang('en')">English</button>
-            <button onclick="changeLang('fr')">French</button>
+            <button onclick="changeLang('fr')">Français</button>
         </div>
-    </body>
+    
+        <nav class="fr">
+            <ul>
+                <li><a href="index.html" target="_self" >Accueil</a></li>
+                <li><a href="page1.html" target="_self" class="ps_menu">Playstation 5</a></li>
+                <li><a href="page2.html" target="_self" class="xbox_menu">Xbox Series X/S</a></li>
+            </ul>
+        </nav>
 
+        <nav class="en">
+            <ul>
+                <li><a href="index.html" target="_self" >Home</a></li>
+                <li><a href="page1.html" target="_self" class="ps_menu">Playstation 5</a></li>
+                <li><a href="page2.html" target="_self" class="xbox_menu">Xbox Series X/S</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div class="fr content home">
+        <img src="./img/ps5-xbox.jpg" class="img_title_home"/>
+        
+        <h1>L'avenir du jeu vidéo entre vos mains</h1>
+
+        <h2>Découvrez les dernières consoles de jeux vidéo : PlayStation 5 et Xbox Series X/S</h2>
+
+        <p>Explorez les merveilles de la nouvelle génération de jeux vidéo avec les consoles les plus récentes et les plus puissantes sur le marché : 
+            <b>la <a href="page1.html">PlayStation 5</a> de <a href="https://sonyinteractive.com/en/">Sony</a> 
+            et la <a href="page2.html">Xbox Series X/S</a> de <a href="https://www.microsoft.com/fr-fr">Microsoft</a></b>.
+        </p>
+
+        <h3>PlayStation 5</h3>
+
+        <p>Plongez dans l'avenir du jeu avec la <a href="page1.html"><b>PlayStation 5</b></a> de <a href="https://sonyinteractive.com/en/"><b>Sony</b></a>. 
+            Dotée de performances de pointe, d'un design élégant et d'une incroyable bibliothèque de jeux, la <b>PS5</b> repousse les limites de l'immersion. 
+            Vivez des aventures épiques, découvrez des mondes fantastiques et explorez des histoires captivantes grâce à la puissance de la technologie de nouvelle génération.
+        </p>
+
+        <h3>Xbox Series X/S</h3>
+
+        <p>Explorez de nouveaux horizons avec la <a href="page2.html"><b>Xbox Series X/S</b></a> de <a href="https://www.microsoft.com/fr-fr"><b>Microsoft</b></a>. 
+            Alliant performances impressionnantes, vitesse fulgurante et fonctionnalités innovantes, la <b>Xbox Series X/S</b> offre une expérience de jeu inégalée. 
+            Plongez au cœur de l'action, découvrez des univers extraordinaires et affrontez vos amis en ligne dans des batailles épiques.
+        </p>
+
+        <h2>Qu'attendez-vous ? Plongez dans l'action dès aujourd'hui !</h2>
+
+        <p>Que vous soyez un joueur chevronné ou un novice, la <b>PlayStation 5</b> et la <b>Xbox Series X/S</b> vous offrent des heures de divertissement sans fin. 
+            Explorez notre site pour en savoir plus sur ces incroyables consoles et préparez-vous à vivre une expérience de jeu inoubliable.
+        </p>
+    </div>
+
+    <div class="en content home">
+        <img src="./img/ps5-xbox.jpg" class="img_title_home"/>
+
+        <h1>The future of gaming in your hands</h1>
+        
+        <h2>Discover the latest video game consoles: PlayStation 5 and Xbox Series X/S</h2>
+        
+        <p>Explore the wonders of the new generation of video games with the newest and most powerful consoles on the market:
+            <b><a href="page1.html">PlayStation 5</a> from <a href="https://sonyinteractive.com/en/">Sony</a>
+            and <a href="page2.html">Xbox Series X/S</a> from <a href="https://www.microsoft.com/en-us">Microsoft</a></b>.
+        </p>
+        
+        <h3>PlayStation 5</h3>
+        
+        <p>Dive into the future of gaming with the <a href="page1.html"><b>PlayStation 5</b></a> from <a href="https://sonyinteractive.com/en/"><b>Sony</b></a>.
+            Equipped with cutting-edge performance, elegant design, and an incredible game library, the <b>PS5</b> pushes the boundaries of immersion.
+            Experience epic adventures, discover fantastical worlds, and explore captivating stories thanks to the power of next-generation technology.
+        </p>
+        
+        <h3>Xbox Series X/S</h3>
+        
+        <p>Explore new horizons with the <a href="page2.html"><b>Xbox Series X/S</b></a> from <a href="https://www.microsoft.com/en-us"><b>Microsoft</b></a>.
+            Combining impressive performance, lightning-fast speed, and innovative features, the <b>Xbox Series X/S</b> offers an unparalleled gaming experience.
+            Dive into the heart of the action, discover extraordinary universes, and challenge your friends online in epic battles.
+        </p>
+        
+        <h2>What are you waiting for? Dive into action today!</h2>
+        
+        <p>Whether you're a seasoned gamer or a novice, the <b>PlayStation 5</b> and <b>Xbox Series X/S</b> offer you endless hours of entertainment.
+            Explore our site to learn more about these incredible consoles and get ready for an unforgettable gaming experience.
+        </p>
+         
+    </div>
+
+    <footer>
+        <div class="fr">
+            <span><a href="https://www.youtube.com/watch?v=IDQYlsDqpAU" target="_self">Mentions Illégales</a> - BTS CIEL1A - DUMEZ Mathis & MARESCAUX Edouard</span>
+        </div>
+        <div class="en">
+            <span><a href="https://www.youtube.com/watch?v=IDQYlsDqpAU" target="_self">Illegal Notice</a> - BTS CIEL1A - DUMEZ Mathis & MARESCAUX Edouard</span>
+        </div>
+    </footer>
+</body>
 </html>
